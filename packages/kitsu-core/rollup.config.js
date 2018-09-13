@@ -58,13 +58,13 @@ export default [
     plugins: pluginsNode,
     output: [
       {
-        file: 'node/index.js',
+        file: `../kitsu-node/${pkg.main}/index.js`,
         format: 'cjs',
         sourcemap: false,
         globals
       },
       {
-        file: 'node/index.mjs',
+        file: `../kitsu-node/${pkg.module}/index.mjs`,
         format: 'es',
         sourcemap: false,
         globals

@@ -1,0 +1,17 @@
+{
+  "version": "6.4.0",
+  "name": "kitsu-core-node",
+  "description": "Core serialisation and deserialsation functions for the kitsu JSON:API client",
+  "author": "James Harris <wopian@wopian.me>",
+  "contributors": [
+    "Brandon Martinez <me@brandonmartinez.com>",
+    "Daniel Skogly <daniel.skogly@protonmail.com>",
+    "Lukas Erlacher <erlacher@in.tum.de>",
+    "Matthew Dias <matthewdias@me.com>",
+    "Menthol <bennetteson@gmail.com>"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=6"
+  }
+}
